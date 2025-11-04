@@ -1,0 +1,65 @@
+/* ============ HERO SECTION ============ */
+.hero {
+  text-align: center;
+  padding: 5rem 1rem 4rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.hero-desc {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* .andreas-layout {
+  width: 90%;
+  max-width: 900px;
+  background-color: #fafafa;
+  min-height: 85.5vh;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.andreas-layout {
+  width: 90%;
+  max-width: 900px;
+  background-color: #fafafa;
+  min-height: auto; /* 🔹 để cao tự nhiên theo nội dung */
+  margin: 76px auto 60px auto;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+/* Icon waving hand */
+.hero-title svg {
+  font-size: 2.4rem;        /* 🔹 giảm kích thước icon cho cân chữ */
+  /* color: #0073e6; */
+  transform: translateY(2px); /* 🔹 chỉnh icon xuống một chút cho đều baseline */
+  animation: wave 2s infinite ease-in-out; /* 👋 hiệu ứng vẫy tay */
+  transform-origin: 70% 70%; /* chỉnh tâm xoay icon */
+}
+
+@keyframes wave {
+  0%   { transform: rotate(0deg) translateY(2px); }
+  10%  { transform: rotate(14deg) translateY(2px); }
+  20%  { transform: rotate(-8deg) translateY(2px); }
+  30%  { transform: rotate(14deg) translateY(2px); }
+  40%  { transform: rotate(-4deg) translateY(2px); }
+  50%  { transform: rotate(10deg) translateY(2px); }
+  60%  { transform: rotate(0deg) translateY(2px); }
+  100% { transform: rotate(0deg) translateY(2px); }
+}
+
+

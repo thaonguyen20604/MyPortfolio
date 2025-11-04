@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff;
+  color: #111;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 768px) {
+  .andreas-header {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 0.8rem;
+  }
+
+  .nav-right {
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+  }
+}
+
+/* ==== FIX CONTAINER WIDTH ==== */
+/* Đảm bảo body và root luôn full chiều ngang */
+/* html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+}
+
+
+/* Cho phép mọi phần tử con co giãn theo thiết bị */
+* {
+  box-sizing: border-box;
+}
+
+

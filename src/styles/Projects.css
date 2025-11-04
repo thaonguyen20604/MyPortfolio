@@ -1,0 +1,238 @@
+#myprojects{
+  margin: 15px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 20px;
+}
+.pagination {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #888;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.filter-btn.active {
+  background: #222;
+  color: white;
+  border-color: #222;
+}
+
+/* .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+} */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  align-items: stretch; /* ✅ Căn các hàng bằng nhau */
+}
+.project-card a {
+  display: inline-flex; /* ✅ chuyển sang flex để căn giữa icon và text */
+  align-items: center;  /* ✅ căn giữa theo trục dọc */
+  justify-content: center; /* căn giữa nếu có khoảng trống */
+  gap: 6px; /* ✅ tạo khoảng cách giữa icon và chữ */
+  text-decoration: none;
+  color: #1b80ce; /* tím nhẹ đẹp mắt */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding-bottom: 10px;
+}
+
+.project-card a:hover {
+  color: #1b4bb1;
+  text-decoration: underline;
+  transform: translateY(-2px);
+}
+
+
+/* ✅ Card đều chiều cao và nội dung căn đẹp */
+.project-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* ✅ ép card cao bằng nhau */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ✅ Ảnh luôn giữ tỷ lệ */
+.project-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ✅ Giữ phần mô tả đều nhau */
+.project-card p {
+  min-height: 60px;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+
+.project-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* .pagination button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #888;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pagination button:hover {
+  background: #222;
+  color: white;
+}
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+} */
+/* ===== Pagination Buttons với Icon ===== */
+.pagination button {
+  display: inline-flex;              /* 🔹 giúp icon và text căn giữa */
+  align-items: center;               /* 🔹 căn icon theo trục dọc */
+  justify-content: center;
+  gap: 6px;                         /* 🔹 khoảng cách giữa icon và chữ */
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1.5px solid #888;
+  background: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 🔹 Hover effect hiện đại */
+.pagination button:hover {
+  background: #c0c0c0;
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* 🔹 Khi bị disabled */
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 🔹 Style cho icon trong button */
+.pagination button svg {
+  font-size: 20px;         /* icon hơi to 1 chút nhìn cân hơn */
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+/* 🔹 Tạo cảm giác chuyển động nhỏ khi hover */
+.pagination button:hover svg {
+  transform: translateX(2px); /* icon Next di chuyển nhẹ sang phải */
+}
+
+.pagination button:first-child:hover svg {
+  transform: translateX(-2px); /* icon Prev di chuyển nhẹ sang trái */
+}
+
+
+/* Dropdown */
+/* Dropdown đẹp kiểu hiện đại */
+.filter-dropdown {
+  appearance: none; /* Ẩn style mặc định của trình duyệt */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 40px 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='gray' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center; /* icon mũi tên */
+  background-size: 16px;
+  margin-bottom: 25px;
+}
+
+.filter-dropdown:hover {
+  border-color: #555;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-dropdown:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.custom-select {
+  width: 250px;
+  margin: 0 auto 25px auto;
+  font-size: 15px;
+}
+
