@@ -37,10 +37,10 @@ return (
       {/* Menu overlay khi mobile */}
       <nav className={`nav-menu ${open ? "open" : ""}`}>
         <div className="nav-left-menu">
-          <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>
-        <Link to="/projects" className={location.pathname === "/projects" ? "active" : ""}>Projects</Link>
-        <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>About me</Link>
-        <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact</Link>
+          <Link to="/" className={location.pathname === "/" ? "active" : ""} onClick={() => setOpen(false)}>Home</Link>
+          <Link to="/projects" className={location.pathname === "/projects" ? "active" : ""} onClick={() => setOpen(false)}>Projects</Link>
+          <Link to="/about" className={location.pathname === "/about" ? "active" : ""} onClick={() => setOpen(false)}>About me</Link>
+          <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""} onClick={() => setOpen(false)}>Contact</Link>
         </div>
         <div className="nav-right-menu">
           <a className="linked" href="https://www.linkedin.com/in/thao-nguyen-tran-441a78320/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
