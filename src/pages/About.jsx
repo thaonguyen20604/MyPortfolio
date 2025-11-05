@@ -2,6 +2,7 @@ import "../styles/global.css";
 import "../styles/About.css"; // file CSS riêng cho phần này
 import avatar from "../assets/avatar3.jpg";
 import CV from "../assets/CV.pdf";
+import Agile from "../assets/Agile_TECHBASE.pdf";
 
 export default function AboutSection() {
   return (
@@ -89,7 +90,7 @@ export default function AboutSection() {
         <div className="about-section">
           <h3>Certificates</h3>
           <a
-            href="/assets/Agile_TECHBASE.pdf"
+            href={Agile}
             target="_blank"
             rel="noreferrer"
             className="cert-link"
