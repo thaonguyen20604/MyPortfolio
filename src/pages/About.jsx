@@ -62,8 +62,8 @@ export default function AboutSection() {
         <div className="about-section">
           <h3>Career Objective</h3>
           <p>
-            My goal is to gain hands-on experience in software development and AI projects,
-            where I can apply my knowledge and grow as a professional engineer.
+            My goal is to gain hands-on experience in Data Science and Artificial Intelligence, 
+            focusing on building and optimizing machine learning models to solve real-world problems.
           </p>
         </div>
 
