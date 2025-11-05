@@ -89,12 +89,12 @@ export default function AboutSection() {
         <div className="about-section">
           <h3>Certificates</h3>
           <a
-            href="/assets/IELTS_Certificate.pdf"
+            href="/assets/Agile_TECHBASE.pdf"
             target="_blank"
             rel="noreferrer"
             className="cert-link"
           >
-            IELTS 6.5 (Academic) – Issued 2024
+            Agile Development & Scrum Framework – Issued 25/10/2024 by TECHBASE (at Ton Duc Thang University)
           </a> <br />
           {/* <a
             href="/assets/MOS_Excel_Certificate.pdf"
