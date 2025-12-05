@@ -65,6 +65,16 @@
   color: #1877f2;
 }
 
+/* HuggingFace */
+.contact-list .huggingface svg {
+  color: #FFD21E;
+}
+
+/* Kaggle */
+.contact-list .kaggle svg {
+  color: #20BEFF;
+}
+
 
 .contact-list li {
   display: flex;                /* căn icon và chữ cùng hàng */
