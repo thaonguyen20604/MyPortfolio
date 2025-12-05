@@ -74,7 +74,7 @@ export default function AboutSection() {
             <li><strong>Languages:</strong> Python, C, Java, JavaScript, PHP</li>
             <li><strong>Frameworks:</strong> TensorFlow, Keras, PyTorch, Apache Spark, Hadoop, React, Fast API</li>
             <li><strong>Databases:</strong> MySQL, MongoDB, Supabase</li>
-            <li><strong>Tools:</strong> GitHub, Visual Studio Code, Kaggle, Google Colab, Docker</li>
+            <li><strong>Tools:</strong> GitHub, Visual Studio Code, Kaggle, Google Colab, Docker, Hugging Face</li>
           </ul>
         </div>
 
