@@ -4,6 +4,8 @@ import { MdEmail } from "react-icons/md";
 import { FaPhone, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { LuSparkles } from "react-icons/lu";
 import { SiZalo } from "react-icons/si";
+import { SiHuggingface, SiKaggle } from "react-icons/si";
+
 
 export default function ContactSection() {
   return (
