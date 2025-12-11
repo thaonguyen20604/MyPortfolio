@@ -129,14 +129,14 @@ export default function AboutSection() {
 
         
 
-        <a
+        {/* <a
           href={CV}
           className="btn-download"
           target="_blank"
           rel="noreferrer"
         >
           Download CV
-        </a>
+        </a> */}
       </div>
     </section>
   );

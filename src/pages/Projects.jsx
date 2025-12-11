@@ -44,6 +44,13 @@ export default function ProjectsSection() {
       link: "https://github.com/thaonguyen20604/Tuition-Payment-Website"
     },
     {
+      name: "Tutor Management System",
+      desc: "A web-based platform for managing tutor profiles, session scheduling, document submissions, and approval workflows, featuring role-based access control and RESTful API integration.",
+      category: "Web Development",
+      // img: "/images/projects/tutor_system.jpg",
+      link: "https://github.com/thaonguyen20604/Tutor-Management-System"
+    },
+    {
       name: "Watermark Security System",
       desc: "Information security project implementing DCT/DWT-based digital watermarking to protect image copyrights.",
       category: "Information Security",
@@ -60,7 +67,7 @@ export default function ProjectsSection() {
     {
       name: "House Price Prediction",
       desc: "Data mining project using crawled real-estate data to predict house prices via regression models.",
-      category: "Data Mining",
+      category: "Machine Learning",
       // img: "/images/projects/house.jpg",
       link: "https://github.com/thaonguyen20604/House-Price-Prediction"
     },
@@ -128,6 +135,13 @@ export default function ProjectsSection() {
       link: "https://github.com/thaonguyen20604/Vietnamese-Language-Generation-Model-with-Ngram"
     },
     {
+      name: "Machine Translation Model",
+      desc: "A Vietnamese–English neural machine translation system built using Transformer architectures (ViT5, Qwen, PhoBERT), enhanced with GPT-generated synthetic data and a DPO-inspired preference optimization.",
+      category: "Natural Language Processing",
+      // img: "/images/projects/machine_translation.jpg",
+      link: "https://github.com/thaonguyen20604/Machine-Translation"
+    },
+    {
       name: "VRPTW Optimization",
       desc: "Last-Mile Delivery optimization using Solomon heuristic and Tabu Search.",
       category: "Optimization Algorithms",
@@ -174,7 +188,6 @@ export default function ProjectsSection() {
   "Web Development",
   "Information Security",
   "Software Engineering",
-  "Data Mining",
   "Optimization Algorithms",
   "Massive Data Processing"
 ];
