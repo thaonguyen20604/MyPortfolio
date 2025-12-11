@@ -20,9 +20,9 @@ export default function AboutSection() {
         <h2 className="about-title">About Me</h2>
         <p className="about-text">
           I'm <strong>Tran Thi Thao Nguyen</strong>, a Computer Science student at Ton Duc Thang University.
-          {/* I'm deeply interested in <strong>Artificial Intelligence</strong>,{" "}
+          I'm deeply interested in <strong>Artificial Intelligence</strong>,{" "}
           <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Natural Language Processing</strong>, and <strong>Data Science</strong> — particularly in
-          applying these fields to solve practical challenges. */}
+          applying these fields to solve practical challenges.
           <br />
           <br />
           Over the course of my studies, I've developed a strong foundation in{" "}

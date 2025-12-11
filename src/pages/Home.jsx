@@ -11,7 +11,7 @@ export default function Home() {
       <section className="hero">
         <h2 className="hero-title"><PiHandWaving /> Hi, I'm Nguyen</h2>
         <p className="hero-desc">
-          A Computer Science student passionate about Artificial Intelligence, Machine Learning, and Data Science. <br />
+          A Computer Science student <br />
           Based in Ho Chi Minh City, Vietnam.
         </p>
       </section>
