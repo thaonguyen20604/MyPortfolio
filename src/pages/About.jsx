@@ -38,7 +38,7 @@ export default function AboutSection() {
         <p className="about-text">
           I'm <strong>Tran Thi Thao Nguyen</strong>, a Computer Science student at Ton Duc Thang University.
           I have a strong interest in <strong>technology, data, and user-centered problem solving</strong>.
-          Throughout my studies, I’ve built a solid foundation across 
+          Throughout my studies, I’ve built a solid foundation across  
           <strong>software development, data analysis, system design, and product thinking</strong>.
           <br /><br />
           I enjoy exploring how technology can be applied to real-world challenges—from analyzing data 
