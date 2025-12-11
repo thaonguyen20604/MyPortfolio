@@ -74,8 +74,11 @@ export default function AboutSection() {
         <div className="about-section">
           <h3>Career Objective</h3>
           <p>
-            My goal is to gain hands-on experience in Data Science and Artificial Intelligence, 
-            focusing on building and optimizing machine learning models to solve real-world problems.
+            {/* My goal is to gain hands-on experience in Data Science and Artificial Intelligence, 
+            focusing on building and optimizing machine learning models to solve real-world problems. */}
+            To gain hands-on experience in a dynamic environment where I can apply my skills in 
+            software development, data analysis, system design, and problem-solving. I aim to 
+            contribute to real-world projects while continuously expanding my capabilities across both technical and product-oriented roles.
           </p>
         </div>
 
@@ -83,7 +86,7 @@ export default function AboutSection() {
         <div className="about-section">
           <h3>Technical Skills</h3>
           <ul>
-            <li><strong>Languages:</strong> Python, C, Java, JavaScript, PHP</li>
+            <li><strong>Programming Languages:</strong> Python, C, Java, JavaScript, PHP</li>
             <li><strong>Frameworks:</strong> TensorFlow, Keras, PyTorch, Apache Spark, Hadoop, React, Fast API</li>
             <li><strong>Databases:</strong> MySQL, MongoDB, Supabase</li>
             <li><strong>Tools:</strong> GitHub, Visual Studio Code, Kaggle, Google Colab, Docker, Hugging Face</li>
@@ -125,6 +128,14 @@ export default function AboutSection() {
           >
             TensorFlow Developer Certificate – 2024
           </a> <br /> */}
+        </div>
+
+        <div className="about-section">
+          <h3>Languages</h3>
+          <ul>
+            <li><strong>Vietnamese:</strong> Native</li>
+            <li><strong>English:</strong> Intermediate (able to communicate and read technical documents)</li>
+          </ul>
         </div>
 
         <div className="about-section">
