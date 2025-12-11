@@ -1,7 +1,6 @@
 import "../styles/global.css";
 import "../styles/About.css"; // file CSS riêng cho phần này
 import avatar from "../assets/avatar3.jpg";
-import CV from "../assets/CV.pdf";
 import Agile from "../assets/Agile_TECHBASE.pdf";
 
 export default function AboutSection() {
