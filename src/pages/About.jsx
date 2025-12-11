@@ -18,7 +18,7 @@ export default function AboutSection() {
       {/* Thông tin bên phải */}
       <div className="about-right">
         <h2 className="about-title">About Me</h2>
-        <p className="about-text">
+        {/* <p className="about-text">
           I'm <strong>Tran Thi Thao Nguyen</strong>, a Computer Science student at Ton Duc Thang University.
           I'm deeply interested in <strong>Artificial Intelligence</strong>,{" "}
           <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Natural Language Processing</strong>, and <strong>Data Science</strong> — particularly in
@@ -34,6 +34,20 @@ export default function AboutSection() {
           <em>
             I value teamwork, adaptability, and continuous learning in every project I work on.
           </em>
+        </p> */}
+        <p className="about-text">
+          I'm <strong>Tran Thi Thao Nguyen</strong>, a Computer Science student at Ton Duc Thang University.
+          I have a strong interest in <strong>technology, data, and user-centered problem solving</strong>.
+          Throughout my studies, I’ve built a solid foundation across 
+          <strong>software development, data analysis, system design, and product thinking</strong>.
+          <br /><br />
+          I enjoy exploring how technology can be applied to real-world challenges—from analyzing data 
+          and designing intuitive user experiences to developing reliable software systems.
+          <br /><br />
+          My goal is to gain hands-on experience in a dynamic working environment where I can contribute,
+          learn from others, and expand my skills across both technical and product-oriented roles.
+          <br /><br />
+          <em>I value teamwork, adaptability, and continuous improvement in every project I take on.</em>
         </p>
 
         
