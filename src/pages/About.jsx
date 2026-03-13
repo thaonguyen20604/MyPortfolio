@@ -136,7 +136,7 @@ export default function AboutSection() {
           <ul>
             <li><strong>Vietnamese:</strong> Native</li>
             <li>
-              <strong>English:</strong>
+              <strong>English: </strong>
               <a
                 href={Aptis}
                 target="_blank"
