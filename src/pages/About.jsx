@@ -2,6 +2,7 @@ import "../styles/global.css";
 import "../styles/About.css"; // file CSS riêng cho phần này
 import avatar from "../assets/avatar3.jpg";
 import Agile from "../assets/Agile_TECHBASE.pdf";
+import Aptis from "../assets/Aptis_Certificate.pdf";
 
 export default function AboutSection() {
   return (
@@ -134,7 +135,18 @@ export default function AboutSection() {
           <h3>Languages</h3>
           <ul>
             <li><strong>Vietnamese:</strong> Native</li>
-            <li><strong>English:</strong> B2– CEFR, Aptis Certified</li>
+            <li>
+              <strong>English:</strong>
+              <a
+                href={Aptis}
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link"
+              >
+                B2– CEFR, Aptis Certified – Issued 01/03/2026 by British Council
+              </a> <br /> 
+            
+            </li>
           </ul>
         </div>
 
