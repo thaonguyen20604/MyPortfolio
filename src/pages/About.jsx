@@ -89,7 +89,7 @@ export default function AboutSection() {
             <li><strong>Programming Languages:</strong> Python, C, Java, JavaScript, PHP</li>
             <li><strong>Frameworks:</strong> TensorFlow, Keras, PyTorch, Apache Spark, Hadoop, React, Fast API</li>
             <li><strong>Databases:</strong> MySQL, MongoDB, Supabase</li>
-            <li><strong>Tools:</strong> GitHub, Visual Studio Code, Kaggle, Google Colab, Docker, Hugging Face</li>
+            <li><strong>Tools:</strong> GitHub, Visual Studio Code, Kaggle, Google Colab, Hugging Face, Docker, Figma, Draw.io, Word, Excel, PowerPoint</li>
           </ul>
         </div>
 
@@ -134,7 +134,7 @@ export default function AboutSection() {
           <h3>Languages</h3>
           <ul>
             <li><strong>Vietnamese:</strong> Native</li>
-            <li><strong>English:</strong> Intermediate (able to communicate and read technical documents)</li>
+            <li><strong>English:</strong> B2– CEFR, Aptis Certified</li>
           </ul>
         </div>
 
