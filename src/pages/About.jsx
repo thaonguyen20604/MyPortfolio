@@ -93,22 +93,27 @@ export default function AboutSection() {
 
         <div className="about-section">
           <h3>Certificates</h3>
-          <a
-            href={Agile}
-            target="_blank"
-            rel="noreferrer"
-            className="cert-link"
-          >
-            Agile Development & Scrum Framework – Issued 25/10/2024 by TECHBASE (at Ton Duc Thang University)
-          </a> <br />
-          <a
-            href={Aptis}
-            target="_blank"
-            rel="noreferrer"
-            className="cert-link"
-          >
-            Aptis English Certificate (B2 – CEFR) – Issued 01/03/2026 by British Council
-          </a> <br />
+          <ul>
+            <li>
+              <a
+                href={Agile}
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link"
+              >
+                Agile Development & Scrum Framework – Issued 25/10/2024 by TECHBASE (at Ton Duc Thang University)
+              </a>
+            </li>
+            <li><a
+                href={Aptis}
+                target="_blank"
+                rel="noreferrer"
+                className="cert-link"
+              >
+                Aptis English Certificate (B2 – CEFR) – Issued 01/03/2026 by British Council
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className="about-section">
