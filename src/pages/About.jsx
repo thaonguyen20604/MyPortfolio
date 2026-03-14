@@ -49,7 +49,7 @@ export default function AboutSection() {
             <strong>GPA:</strong> 7.83 / 10.0 (Current)<br />
             <strong>Study Period:</strong> 2022 – 2026 <br />
             <strong>Expected Graduation:</strong> 2026<br />
-            <strong>Transcript:</strong> 
+            <strong>Transcript: </strong> 
             <a
               href={transcript}
               target="_blank"
