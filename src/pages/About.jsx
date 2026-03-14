@@ -1,8 +1,9 @@
 import "../styles/global.css";
-import "../styles/About.css"; // file CSS riêng cho phần này
+import "../styles/About.css";
 import avatar from "../assets/avatar3.jpg";
 import Agile from "../assets/Agile_TECHBASE.pdf";
 import Aptis from "../assets/Aptis_Certificate.pdf";
+import transcript from "../assets/Academic_Transcript.pdf";
 
 export default function AboutSection() {
   return (
@@ -10,7 +11,7 @@ export default function AboutSection() {
       {/* Ảnh đại diện bên trái */}
       <div className="about-left">
         <img
-          src={avatar}  // đặt ảnh avatar trong thư mục public/assets
+          src={avatar} 
           alt="Tran Thi Thao Nguyen"
           className="about-avatar"
         />
@@ -19,23 +20,6 @@ export default function AboutSection() {
       {/* Thông tin bên phải */}
       <div className="about-right">
         <h2 className="about-title">About Me</h2>
-        {/* <p className="about-text">
-          I'm <strong>Tran Thi Thao Nguyen</strong>, a Computer Science student at Ton Duc Thang University.
-          I'm deeply interested in <strong>Artificial Intelligence</strong>,{" "}
-          <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, <strong>Natural Language Processing</strong>, and <strong>Data Science</strong> — particularly in
-          applying these fields to solve practical challenges.
-          <br />
-          <br />
-          Over the course of my studies, I've developed a strong foundation in{" "}
-          algorithms, data processing, and model implementation. My goal is to gain
-          real-world experience through internships that allow me to combine creativity
-          and technology.
-          <br />
-          <br />
-          <em>
-            I value teamwork, adaptability, and continuous learning in every project I work on.
-          </em>
-        </p> */}
         <p className="about-text">
           I'm <strong>Tran Thi Thao Nguyen</strong>, a Computer Science student at Ton Duc Thang University.
           I have a strong interest in <strong>technology, data, and user-centered problem solving</strong>.
@@ -55,7 +39,6 @@ export default function AboutSection() {
         <div className="about-info">
           <p><strong>Date of Birth:</strong> 20 June 2004</p>
           <p><strong>Current Location:</strong> Nha Be, Ho Chi Minh City, Vietnam</p>
-          {/* <p><strong>Education:</strong> Ton Duc Thang University – Computer Science</p> */}
         </div>
 
         {/* Học vấn */}
@@ -63,11 +46,18 @@ export default function AboutSection() {
           <h3>Education</h3>
           <p>
             <strong>Ton Duc Thang University</strong> – Bachelor of Computer Science<br />
-            {/* <strong>Major:</strong> Artificial Intelligence & Data Science<br /> */}
-            <strong>GPA:</strong> 7.72 / 10.0 (Current)<br />
+            <strong>GPA:</strong> 7.83 / 10.0 (Current)<br />
             <strong>Study Period:</strong> 2022 – 2026 <br />
             <strong>Expected Graduation:</strong> 2026<br />
-            {/* <strong>Achievements:</strong> University Scholarship for Excellent Academic Performance (2023) */}
+            <strong>Transcript:</strong> 
+            <a
+              href={transcript}
+              target="_blank"
+              rel="noreferrer"
+              className="cert-link"
+            >
+            View Transcript (PDF)
+          </a><br />
           </p>
         </div>
         
@@ -75,15 +65,13 @@ export default function AboutSection() {
         <div className="about-section">
           <h3>Career Objective</h3>
           <p>
-            {/* My goal is to gain hands-on experience in Data Science and Artificial Intelligence, 
-            focusing on building and optimizing machine learning models to solve real-world problems. */}
             To gain hands-on experience in a dynamic environment where I can apply my skills in 
             software development, data analysis, system design, and problem-solving. I aim to 
             contribute to real-world projects while continuously expanding my capabilities across both technical and product-oriented roles.
           </p>
         </div>
 
-        {/* 4️⃣ Kỹ năng chính */}
+        {/* Kỹ năng chính */}
         <div className="about-section">
           <h3>Technical Skills</h3>
           <ul>
@@ -94,7 +82,7 @@ export default function AboutSection() {
           </ul>
         </div>
 
-        {/* 5️⃣ Môn học nổi bật */}
+        {/* Môn học nổi bật */}
         <div className="about-section">
           <h3>Relevant Coursework</h3>
           <p>
@@ -113,22 +101,6 @@ export default function AboutSection() {
           >
             Agile Development & Scrum Framework – Issued 25/10/2024 by TECHBASE (at Ton Duc Thang University)
           </a> <br />
-          {/* <a
-            href="/assets/MOS_Excel_Certificate.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="cert-link"
-          >
-            Microsoft Office Specialist (Excel) – 2023
-          </a> <br />
-          <a
-            href="/assets/TensorFlow_Certificate.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="cert-link"
-          >
-            TensorFlow Developer Certificate – 2024
-          </a> <br /> */}
         </div>
 
         <div className="about-section">
@@ -159,19 +131,6 @@ export default function AboutSection() {
             <li>Continuous learning mindset</li>
           </ul>
         </div>
-
-
-
-        
-
-        {/* <a
-          href={CV}
-          className="btn-download"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Download CV
-        </a> */}
       </div>
     </section>
   );
