@@ -101,24 +101,21 @@ export default function AboutSection() {
           >
             Agile Development & Scrum Framework – Issued 25/10/2024 by TECHBASE (at Ton Duc Thang University)
           </a> <br />
+          <a
+            href={Aptis}
+            target="_blank"
+            rel="noreferrer"
+            className="cert-link"
+          >
+            Aptis English Certificate (B2 – CEFR) – Issued 01/03/2026 by British Council
+          </a> <br />
         </div>
 
         <div className="about-section">
           <h3>Languages</h3>
           <ul>
             <li><strong>Vietnamese:</strong> Native</li>
-            <li>
-              <strong>English: </strong>
-              <a
-                href={Aptis}
-                target="_blank"
-                rel="noreferrer"
-                className="cert-link"
-              >
-                B2– CEFR, Aptis Certified – Issued 01/03/2026 by British Council
-              </a> <br /> 
-            
-            </li>
+            <li><strong>English:</strong> B2 (CEFR)</li>
           </ul>
         </div>
 
